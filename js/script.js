@@ -666,7 +666,7 @@ function getContent(url) {
 
 class CartView extends DefaultView {
     constructor(params) {
-        console.log(super(params));
+        super(params);
         this.setTitle('Корзина');
     }
 
